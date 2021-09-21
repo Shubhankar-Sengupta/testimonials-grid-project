@@ -178,19 +178,3 @@ body {
         grid-area: e;
     }
 }
-
-
-@media (min-width:768px) and (max-width:1200px) {
-
-    .container {
-       grid-template-columns: 1fr 2fr 1fr minmax(min-content, .75fr);
-    }
-
-    .first > .verified-graduate, .third > .verified-graduate, .fourth > .verified-graduate, .fifth > .verified-graduate {
-        grid-template-columns: minmax(2rem, .25fr) 1fr;
-    }
-
-    .second > .verified-graduate {
-        grid-template-columns: minmax(2.125rem, 3.25fr) 21fr;
-    }
-} 
