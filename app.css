@@ -134,6 +134,10 @@ body {
     color: #48556A;
 }
 
+.attribution {
+    grid-column: 2/4;
+}
+
 
 @media (max-width:768px) {
 
